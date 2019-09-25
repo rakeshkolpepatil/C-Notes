@@ -5,4 +5,9 @@ Macros
 Preprocessors
   - special program invoked by compiler.
   - takes a C program and produces another C program without any #.
-  - 
+  - INCLUDE directive
+    -- #include <headerfile.h>
+      --- copies contents of headerfile.h into current file
+      --- angular brackets - search headerfile.h in standard folders.
+    -- #include "headerfile.h"
+      --- Double quotes asks preprocessor to search headerfile.h inside current directory.  
