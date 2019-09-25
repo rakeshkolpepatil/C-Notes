@@ -1,0 +1,8 @@
+Source For Notes
+  - https://www.geeksforgeeks.org/interesting-facts-preprocessors-c/
+
+Macros
+Preprocessors
+  - special program invoked by compiler.
+  - takes a C program and produces another C program without any #.
+  - 
