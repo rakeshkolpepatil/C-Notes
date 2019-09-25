@@ -11,3 +11,10 @@ Preprocessors
       --- angular brackets - search headerfile.h in standard folders.
     -- #include "headerfile.h"
       --- Double quotes asks preprocessor to search headerfile.h inside current directory.  
+    -- ## this is token parsing operator
+    -- used for concatinating tokens
+    -- a token passed to a macro can be converted to a string using # operator.
+    -- The macro can be written on multiple lines using \ and last line should not have it.
+    -- macros are not evaluated before macro expansion.
+    -- static inline functions should be prefered over macros with arguments.
+    -- #undef MACRO_NAME is used to undefine the macros which were defined earlier.
